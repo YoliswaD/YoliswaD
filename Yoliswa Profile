@@ -1,0 +1,86 @@
+<html>
+    <head> 
+       <style> 
+    h1 {
+        text-align: center;
+        color: rgb(114, 114, 19);
+        border: 1px solid rgb(57, 53, 61) ;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0.3);
+        margin: 20px;
+
+    }
+    h2 {
+        text-align: center;
+        color: rgb(95, 64, 64);
+    }
+    img {
+        
+        border-radius: 10px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0.3);
+        margin: 20px;
+
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    button {
+        width: 100%;
+        background: brown;
+        border: none;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 30px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0.3);
+        margin: 20px;
+    }
+    </style>
+
+    </head>
+
+    <body>
+<h1>
+    Yoliswa Dladla
+</h1>
+<h2>
+    Data Science   
+</h2>
+        <img src="https://media.licdn.com/dms/image/C4D03AQExaYE79n3Mfw/profile-displayphoto-shrink_400_400/0/1596552127890?e=1692230400&v=beta&t=Bvln0PxDHw4is3Zfr-_jWBXoD38McgDNkgV_R_d9KnQ" alt=""  srcset="">
+
+        <h2>
+    About me
+        </h2>
+<p>
+    I am a self-motivated and hard-working individual. I am passionate about my work and I always strive for perfection.
+
+"Data transcends mere numbers; it embodies the art of extracting meaningful insights that empower businesses. It's not just about the data itself, but rather understanding the needs of stakeholders and crafting insights that truly resonate with their vision and aspirations."
+<br />
+<br />
+<button>
+Showcase-Chatbot
+</button>
+<br />
+<br />
+
+<a href="https://www.linkedin.com/in/yoliswa-dladla-6094681b4/">
+    LinkedIn</a>
+<br />
+<br />
+
+<a href="https://github.com/YoliswaD/YoliswaD">
+    GitHub</a>  
+</p>
+<script>
+    function chat () {
+prompt("Welcome to my profile")
+
+    }
+    let button = document.querySelector("button");
+    button.addEventListener("click", chat)
+
+</script>
+</body>
+</html>
